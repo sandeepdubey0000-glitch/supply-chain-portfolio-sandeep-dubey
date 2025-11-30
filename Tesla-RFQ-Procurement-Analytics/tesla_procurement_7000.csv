@@ -1,0 +1,3 @@
+part_id,supplier_id,rfq_id,quote_price,lead_time_days,tooling_cost,quality_ppm,historical_spend
+PART0001,SUP001,RFQ001,120.50,14,4500.00,20,10000
+PART0002,SUP002,RFQ002,98.75,21,3000.00,15,5000

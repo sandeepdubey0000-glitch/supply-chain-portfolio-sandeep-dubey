@@ -1,0 +1,3 @@
+event_id,fc_id,sku_id,stage,start_time,end_time,carrier,delay_reason
+EVT00001,FC1,SKU0001,pick,2025-01-01T08:00:00,2025-01-01T09:20:00,CARR01,none
+EVT00002,FC1,SKU0002,pack,2025-01-01T09:40:00,2025-01-01T10:10:00,CARR02,carrier_delay
