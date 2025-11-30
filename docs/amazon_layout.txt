@@ -1,0 +1,8 @@
+
+Amazon FC - Power BI Layout (4 pages)
+1) Overview: Avg Cycle Time, Throughput/hr, SLA %, Defect Rate
+2) Cycle Time Breakdown: Stacked bars of components (inbound/stow/pick/pack/dispatch)
+3) Carrier Performance: Carrier avg cycle time, SLA compliance, share of delays
+4) FC Productivity: Throughput by FC, top slow events, improvement recommendations
+Filters: FC_ID, Carrier, Date range, SLA threshold
+Theme: Neutral + Orange accents, grid layout for operations viewers

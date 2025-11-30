@@ -1,0 +1,5 @@
+
+-- Amazon DAX Measures (examples)
+AvgCycleTimeMin = AVERAGE('amazon'[Total_Cycle_Time_min])
+ThroughputPerHour = AVERAGE('amazon'[Throughput_per_Hour])
+SLACompliancePct = DIVIDE(CALCULATE(COUNTROWS('amazon'), 'amazon'[SLA_Met_Flag]=1), COUNTROWS('amazon'))

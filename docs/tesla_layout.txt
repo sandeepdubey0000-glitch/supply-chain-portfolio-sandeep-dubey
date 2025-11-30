@@ -1,0 +1,8 @@
+
+Tesla - Power BI Layout (4 pages)
+1) Spend Overview: Total Yearly Spend, Median Savings %, Top suppliers by spend
+2) Supplier Scorecard: OTIF (if available), Quality, Lead Time, Score, trend
+3) RFQ Negotiation Simulator: Input RFQ Price slider, show projected negotiated price & savings impact
+4) Parts & Tooling: High tooling cost parts, MOQ impact analysis
+Filters: Supplier, Part Number, Year, Cost bands
+Theme: Industrial (clean), accent: #0B5FFF + #111827
