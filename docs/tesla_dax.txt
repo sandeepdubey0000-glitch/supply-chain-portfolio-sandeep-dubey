@@ -1,9 +1,0 @@
-
--- Tesla DAX Measures (examples)
-TotalYearlySpend = SUM('tesla'[Yearly_Spend])
-MedianNegotiatedSavingsPct = MEDIAN('tesla'[Cost_Savings_Achieved_%'])
-SupplierScore = 
-    VAR q = AVERAGE('tesla'[Quality_Score])
-    VAR lt = AVERAGE('tesla'[Lead_Time_Days])
-    VAR price = AVERAGE('tesla'[Negotiated_Price])
-    RETURN q*0.4 + (100 - lt/1.5)*0.3 + (100 - (price/MAX('tesla'[RFQ_Price]))*100)*0.3

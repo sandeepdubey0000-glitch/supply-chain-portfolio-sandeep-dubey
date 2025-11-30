@@ -1,8 +1,0 @@
-
-Mytheresa - Power BI Layout (4 pages)
-1) Executive Summary (KPIs): Total Inventory Value, Avg Daily Demand, Stockout Risk %, Carrying Cost Estimate, Alerts count
-2) ABC Analysis: Pareto chart, table of A/B/C SKUs, filter by Hub/Category
-3) Stock Aging & Slow Movers: Aging histogram, top slow movers by value, recommendation flags
-4) Replenishment Planner: ROP, Safety Stock, suggested PO qty, hub comparison, urgent alerts
-Filters: Hub, Category, SKU search, Aging bins
-Theme: Elegant (dark on light), accent color: #0F172A (navy) + #F97316 (accent)

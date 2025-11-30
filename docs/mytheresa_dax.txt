@@ -1,6 +1,0 @@
-
--- Mytheresa DAX Measures (examples)
-TotalInventoryValue = SUMX('mytheresa', 'mytheresa'[Current_Stock] * 'mytheresa'[Unit_Cost])
-AvgDailyDemand = AVERAGE('mytheresa'[Avg_Daily_Demand])
-SafetyStock = SUMX('mytheresa', 1.65 * 'mytheresa'[Demand_StdDev] * SQRT('mytheresa'[Lead_Time_Days]))
-ReorderPoint = SUMX('mytheresa', ('mytheresa'[Avg_Daily_Demand] * 'mytheresa'[Lead_Time_Days]) + 'mytheresa'[Safety_Stock])
